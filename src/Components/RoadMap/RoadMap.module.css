@@ -1,0 +1,14 @@
+.Card {
+    background: rgba(10, 7, 13, 0.7);
+    backdrop-filter: blur(26.2756px);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.Card:hover {
+    background: rgba(10, 7, 13, 0.3);
+    backdrop-filter: blur(35);
+    border-radius: 30px;
+}
+.Color {
+    color: #ff6500;
+}
