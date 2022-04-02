@@ -1,0 +1,47 @@
+#faqContainer .accordion-wrapper .accordion-item .accordion-panel .panel-open {
+    background: linear-gradient(
+        to bottom,
+        rgba(6, 4, 7, 0.5) 0%,
+        rgba(6, 4, 7, 0.5) 100%
+    );
+    color: rgba(128, 128, 128, 1) !important;
+    border-radius: 0 0 30px 30px;
+    margin-top: -1.5rem;
+    padding: 2.5rem 3rem 2rem;
+    text-align: justify;
+}
+#faqContainer .accordion-wrapper .accordion-item .accordion-panel .panel-close {
+    background: linear-gradient(
+        to bottom,
+        rgba(6, 4, 7, 0.5) 0%,
+        rgba(6, 4, 7, 0.5) 100%
+    );
+    text-align: justify;
+}
+
+#faqContainer .accordion-wrapper .accordion-item h3.accordion-title button {
+    background: rgb(6, 4, 7) !important;
+    backdrop-filter: blur(10.6914px);
+    border-radius: 90px;
+    border: none;
+    padding: 16px 32px;
+}
+
+#faqContainer
+    .accordion-wrapper
+    .accordion-item
+    h3.accordion-title
+    button.active {
+    background: rgba(6, 4, 7, 0.5) !important;
+    color: rgba(240, 95, 1, 1);
+    border-radius: 30px 30px 15px 15px;
+}
+
+/* @media (min-width: 575px) {
+    .faq-bg {
+        background-image: url("../../assets//images/Polygon\ 18.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 120px;
+    }
+} */

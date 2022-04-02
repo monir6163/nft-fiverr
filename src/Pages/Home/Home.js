@@ -1,4 +1,5 @@
 import React from "react";
+import According from "../../Components/According/According";
 import Featured from "../../Components/Featured/Featured";
 import Innovate from "../../Components/Innovate/Innovate";
 import Nav from "../../Components/Shared/Nav";
@@ -14,6 +15,7 @@ const Home = () => {
                     <Hero />
                     <Featured />
                     <Innovate />
+                    <According />
                 </div>
             </div>
         </div>
