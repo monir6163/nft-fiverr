@@ -1,0 +1,23 @@
+.Card {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.05) 100%
+    );
+    box-shadow: rgb(0 0 0 / 20%) 0px 10px 20px;
+    backdrop-filter: blur(27.1828px);
+    transition: 0.5s;
+}
+.Card:hover {
+    background: rgba(10, 7, 13, 0.3);
+    backdrop-filter: blur(35);
+}
+.Color {
+    color: #ff6500;
+}
+.road_img {
+    padding: 14px;
+    width: 58px;
+    height: 58px;
+    background: linear-gradient(rgb(227, 122, 255) 0%, rgb(33, 193, 224) 100%);
+    border-radius: 20px;
+}

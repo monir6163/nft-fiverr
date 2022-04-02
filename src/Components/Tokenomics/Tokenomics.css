@@ -1,0 +1,15 @@
+.road_map {
+    position: relative;
+    z-index: 4;
+}
+.road_map_img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    max-height: 1200px;
+    opacity: 0.7;
+}

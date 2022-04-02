@@ -14,3 +14,36 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
 }
+
+/* custom classes */
+.my-container {
+    @apply w-full mx-auto;
+}
+@media (min-width: 576px) {
+    .my-container {
+        max-width: 540px !important;
+    }
+}
+@media (min-width: 768px) {
+    .my-container {
+        max-width: 720px !important;
+    }
+}
+@media (min-width: 992px) {
+    .my-container {
+        max-width: 970px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .my-container {
+        max-width: 1170px !important;
+    }
+    .userImg {
+        display: block;
+    }
+}
+@media (min-width: 1400px) {
+    .my-container {
+        max-width: 1320px !important;
+    }
+}

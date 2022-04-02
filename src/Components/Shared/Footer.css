@@ -1,0 +1,46 @@
+.footer_app {
+    position: absolute;
+    -webkit-box-align: center;
+    align-items: center;
+    top: -125px;
+    background: linear-gradient(rgb(45, 213, 119) 0%, rgb(36, 171, 96) 99.79%);
+    box-shadow: rgb(0 0 0 / 15%) 0px 20px 40px;
+    border-radius: 40px;
+    max-width: 1240px;
+    width: calc(100% - 30px);
+    user-select: none;
+}
+.f_app img {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    width: 280px;
+    height: 190px;
+    overflow: hidden;
+}
+.f_btn {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    transition: transform 0.1s ease 0s;
+}
+.f_btn:hover {
+    transform: scale(1.1);
+}
+.f_btn span {
+    color: rgb(41, 192, 107);
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+}
+.f_btn svg {
+    margin-top: 3px;
+    margin-left: 5px;
+}

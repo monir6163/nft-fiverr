@@ -64,7 +64,10 @@ const According = () => {
                     project. Feel free to drop a message in our Telegram group
                     if you still have doubts
                 </p>
-                <div id="faqContainer" className="continer md:px-16">
+                <div
+                    id="faqContainer"
+                    className="continer md:px-16 py-16 mb-36"
+                >
                     <AccordionWrapper>
                         {faqs.map((item, index) => (
                             <AccordionItem
