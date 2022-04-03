@@ -10,7 +10,7 @@ const Colors = [
         id: 1,
         title: "Staking Rewards",
         img: img1,
-        desc: "Earn $LUNAR and BNB automatically over time, paid out on our dApp or after every transaction.",
+        desc: "Earn $ILX and BNB automatically over time, paid out on our dApp or after every transaction.",
     },
     {
         id: 2,
@@ -20,15 +20,15 @@ const Colors = [
     },
     {
         id: 3,
-        title: "LunarSniper",
+        title: "ILXSniper",
         img: img3,
-        desc: "Never miss a potential gem again once LunarSnipes releases to secure your entry spot.",
+        desc: "Never miss a potential gem again once ILXSnipes releases to secure your entry spot.",
     },
     {
         id: 4,
         title: "Swap Platform",
         img: img4,
-        desc: "Getting tired of errors or lag from PancakeSwap? LunarSwap will save you from that trouble.",
+        desc: "Getting tired of errors or lag from PancakeSwap? ILXSwap will save you from that trouble.",
     },
 ];
 
@@ -45,12 +45,11 @@ const Innovate = () => {
                                 Innovative auto farming token.
                             </h1>
                             <p className="mt-10 text-[18px] font-bold text-slate-400 text-center lg:text-left px-4 lg:px-0">
-                                With LunarSwap's innovative code, all of your
-                                LunarSwap tokens will be automatically staked
-                                for you to be rewarded in BNB and LunarSwap
-                                tokens!
+                                With ILXSwap's innovative code, all of your
+                                ILXSwap tokens will be automatically staked for
+                                you to be rewarded in BNB and ILXSwap tokens!
                                 <p className="mt-[15px] text-base font-bold text-slate-400">
-                                    LunarSwap Token will be the only token
+                                    ILXSwap Token will be the only token
                                     accepted in our ecosystem.
                                 </p>
                                 <p className="mt-[15px] text-base font-bold text-slate-400">
@@ -96,7 +95,6 @@ const Innovate = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <h3 className="md:text-left text-center text-base md:text-2xl px-4 md:px-6 mt-6 md:mt-8 font-semibold"></h3> */}
                                 </div>
                             ))}
                         </div>

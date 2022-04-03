@@ -26,7 +26,7 @@ const Tokenomics = () => {
                                 Tokenomics
                             </h1>
                             <p className="text-[#a7a1aa] text-[16px] md:text-[20px] text-center lg:text-left font-bold">
-                                LUNAR has a fixed total supply of 10 billion
+                                ILX has a fixed total supply of 10 billion
                                 (10,000,000,000) tokens. No more tokens can ever
                                 be minted and the total supply can only be
                                 deflated by sending to the dead address.

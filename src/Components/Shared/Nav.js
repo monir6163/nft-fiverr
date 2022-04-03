@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import scrollToElement from "scroll-to-element";
-import navlogo from "../../images/nav-logo.svg";
+import navlogo from "../../images/logo_nav.webp";
+import navicon from "../../images/mobile.svg";
 import "./Nav.css";
 
 const Nav = () => {
@@ -33,7 +34,7 @@ const Nav = () => {
             <nav
                 className={`px-4 ${
                     windowHeight ? "py-4 md:py-3 bg-purple-900" : "py-2 md:py-6"
-                } sm:px-6 md:px-12 ${
+                }  ${
                     !windowHeight && "lg:rounded-full max-w-[1200px] w-full"
                 } mx-auto mb_nav`}
             >
@@ -78,15 +79,15 @@ const Nav = () => {
                         className="flex items-center"
                     >
                         <img
-                            className="h-6 md:h-8 xl:h-10"
+                            className="h-4 w-full md:h-8 xl:h-10"
                             src={navlogo}
                             alt="SolLires"
                         />
                     </button>
-                    <div className="flex sm:order-last">
+                    <div className="flex sm:order-last items-center">
                         <button
                             type="button"
-                            className="rounded-full text-white mr-2 nav_btn"
+                            className="rounded-full text-white mr-2 hidden lg:block nav_btn"
                         >
                             <a
                                 target="_blank"
@@ -96,6 +97,14 @@ const Nav = () => {
                                 Open App
                             </a>
                         </button>
+                        <a
+                            target="_blank"
+                            href="https://whitepaper.soltires.com/"
+                            rel="noreferrer"
+                            className="md:hidden mobile_icon"
+                        >
+                            <img src={navicon} alt="" />
+                        </a>
                     </div>
                     <div
                         className="hidden w-full lg:block md:w-auto"
@@ -154,11 +163,11 @@ const Nav = () => {
                                 </a>
                             </li>
 
-                            <li
-                                onClick={() => scrollTo("#contact")}
-                                className="text-white hover:text-orange-600"
-                            >
-                                <a href="#contact" className="block py-2 pl-3 ">
+                            <li className="text-white hover:text-orange-600">
+                                <a
+                                    href="#contract"
+                                    className="block py-2 pl-3 "
+                                >
                                     Contact
                                 </a>
                             </li>
@@ -174,57 +183,57 @@ const Nav = () => {
                     >
                         <li
                             onClick={() => {
-                                scrollTo("#about");
+                                scrollTo("#home");
                                 setIsOpen(false);
                             }}
                             className="mobile_nav"
                         >
-                            <a href="#works" className="block py-2 pl-3 ">
-                                About
+                            <a href="#home" className="block py-2 pl-3 ">
+                                Home
                             </a>
                         </li>
                         <li
                             onClick={() => {
-                                scrollTo("#works");
+                                scrollTo("#audit");
                                 setIsOpen(false);
                             }}
                             className="mobile_nav"
                         >
-                            <a href="#works" className="block py-2 pl-3 ">
-                                How it works
+                            <a href="#audit" className="block py-2 pl-3 ">
+                                Audit
                             </a>
                         </li>
                         <li
                             onClick={() => {
-                                scrollTo("#cars");
+                                scrollTo("#tokenomics");
                                 setIsOpen(false);
                             }}
                             className="mobile_nav"
                         >
-                            <a href="#cars" className="block py-2 pl-3 ">
-                                Cars
+                            <a href="#tokenomics" className="block py-2 pl-3 ">
+                                Tokenomics
                             </a>
                         </li>
                         <li
                             onClick={() => {
-                                scrollTo("#road-map");
+                                scrollTo("#road");
                                 setIsOpen(false);
                             }}
                             className="mobile_nav"
                         >
-                            <a href="#road-map" className="block py-2 pl-3 ">
+                            <a href="#road" className="block py-2 pl-3 ">
                                 Roadmap
                             </a>
                         </li>
                         <li
                             onClick={() => {
-                                scrollTo("#community");
+                                scrollTo("#contract");
                                 setIsOpen(false);
                             }}
                             className="mobile_nav"
                         >
-                            <a href="#community" className="block py-2 pl-3 ">
-                                Socials
+                            <a href="#contract" className="block py-2 pl-3 ">
+                                Contract
                             </a>
                         </li>
                     </ul>

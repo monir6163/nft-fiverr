@@ -25,14 +25,14 @@ const Colors = [
         title: "Marketing",
         date: "July 2021",
         img: img3,
-        desc: "Constant marketing while preparing release of Lunar Bot for pending orders and listing on CEX.",
+        desc: "Constant marketing while preparing release of ILX Bot for pending orders and listing on CEX.",
     },
     {
         id: 4,
         title: "Upcoming",
         date: "August 2021",
         img: img4,
-        desc: "Release of Lunar Sniper bot, a merchandise store and community contests",
+        desc: "Release of ILX Sniper bot, a merchandise store and community contests",
     },
 ];
 
@@ -45,7 +45,7 @@ const RoadMap = () => {
                         Roadmap
                     </h1>
                     <p className="text-center text-[20px] text-[#a7a1aa] font-bold">
-                        Join LunarSwap on our journey to the moon!
+                        Join ILXSwap on our journey to the moon!
                     </p>
                 </div>
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 md:gap-x-6 gap-y-16 text-white">

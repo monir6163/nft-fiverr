@@ -11,11 +11,11 @@ const Hero = () => {
             data-aos-duration="2000"
         >
             <span className="text-5xl leading-normal text-white max-w-lg md:text-6xl font-bold text-center md:leading-normal">
-                Welcome to <span>LunarSwap.</span>
+                Welcome to <span>iLoopSwap.</span>
             </span>
             <span className="font-medium opacity-70 max-w-xs mx-4 md:max-w-sm mt-4 text-xl text-center text-white">
                 Innovative, decentralized yield farming token which
-                automatically rewards both BNB and LUNAR.
+                automatically rewards both BNB and ILX.
             </span>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center justify-center w-full mt-5">
                 <button

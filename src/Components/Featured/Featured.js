@@ -19,7 +19,7 @@ const Featured = () => {
                             Automatic Staking
                         </span>
                         <p className="text-base font-medium md:w-48  w-64 mt-1.5 text-center md:text-left text-slate-400">
-                            LUNAR tokens will be staked automatically by holding
+                            ILX tokens will be staked automatically by holding
                             it in your wallet.
                         </p>
                     </div>

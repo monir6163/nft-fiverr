@@ -1,6 +1,6 @@
 import React from "react";
-import logo_footer from "../../images/footer-logo.svg";
 import github from "../../images/github.svg";
+import logo_footer from "../../images/logo_nav.webp";
 import smallview from "../../images/small-nft.png";
 import teligram from "../../images/teligram.svg";
 import twitter from "../../images/twitter.svg";
@@ -40,14 +40,35 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-between w-full mt-12 md:mt-0 md:px-16 mb-10 items-center">
-                <img src={logo_footer} alt="" />
+                <img className="h-4 md:h-8 xl:h-10" src={logo_footer} alt="" />
                 <span className="mt-5 text-white font-bold">
-                    © 2021 Lunarswap. All rights reserved.
+                    © {new Date().getFullYear()} iLoopSwap. All rights reserved.
                 </span>
                 <div className="flex justify-around py-3">
-                    <img className="pr-6" src={twitter} alt="" />
-                    <img className="pr-6" src={github} alt="" />
-                    <img className="pr-6" src={teligram} alt="" />
+                    <a
+                        href="http://twiiter.com"
+                        target="_blank"
+                        className="hover:scale-75"
+                        rel="noreferrer"
+                    >
+                        <img className="pr-6" src={twitter} alt="" />
+                    </a>
+                    <a
+                        href="http://github.com"
+                        target="_blank"
+                        className="hover:scale-75"
+                        rel="noreferrer"
+                    >
+                        <img className="pr-6" src={github} alt="" />
+                    </a>
+                    <a
+                        href="http://teligram.com"
+                        target="_blank"
+                        className="hover:scale-75"
+                        rel="noreferrer"
+                    >
+                        <img className="pr-6" src={teligram} alt="" />
+                    </a>
                 </div>
             </div>
         </div>
