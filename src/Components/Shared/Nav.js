@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ScrollToElement } from "use-scroll-to-element";
+import scrollToElement from "scroll-to-element";
 import navlogo from "../../images/nav-logo.svg";
 import "./Nav.css";
 
@@ -14,7 +14,7 @@ const Nav = () => {
     };
 
     const scrollTo = (selector) => {
-        ScrollToElement(selector, { offset: 0, ease: "linear", duration: 500 });
+        scrollToElement(selector, { offset: 0, ease: "linear", duration: 500 });
     };
 
     useEffect(() => {
@@ -103,6 +103,18 @@ const Nav = () => {
                     >
                         <ul className="flex flex-col mt-4 lg:flex-row lg:space-x-8 md:mt-0 text-base md:text-xl  md:font-medium text-main-white">
                             <li
+                                onClick={() => scrollTo("#home")}
+                                className="text-white hover:text-orange-600"
+                            >
+                                <a
+                                    href="#home"
+                                    className="block py-2 pl-3 "
+                                    aria-current="page"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li
                                 onClick={() => scrollTo("#audit")}
                                 className="text-white hover:text-orange-600"
                             >
@@ -126,13 +138,10 @@ const Nav = () => {
                                 </a>
                             </li>
                             <li
-                                onClick={() => scrollTo("#road-map")}
+                                onClick={() => scrollTo("#road")}
                                 className="text-white hover:text-orange-600"
                             >
-                                <a
-                                    href="#road-map"
-                                    className="block py-2 pl-3 "
-                                >
+                                <a href="#road" className="block py-2 pl-3 ">
                                     Roadmap
                                 </a>
                             </li>

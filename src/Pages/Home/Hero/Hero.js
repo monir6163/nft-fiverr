@@ -5,7 +5,11 @@ import "./Hero.css";
 
 const Hero = () => {
     return (
-        <div className="flex flex-col mt-24 md:mt-36 items-center">
+        <div
+            className="flex flex-col mt-24 md:mt-36 items-center"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+        >
             <span className="text-5xl leading-normal text-white max-w-lg md:text-6xl font-bold text-center md:leading-normal">
                 Welcome to <span>LunarSwap.</span>
             </span>

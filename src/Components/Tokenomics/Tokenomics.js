@@ -6,14 +6,22 @@ import "./Tokenomics.css";
 
 const Tokenomics = () => {
     return (
-        <div className="bg-[#15051c] text-white py-20 road_map">
+        <div className="bg-[#15051c] text-white py-20 road_map" id="tokenomics">
             <div className="my-container">
                 <div className="grid grid-cols-12 gap-4 ">
-                    <div className="col-span-12 lg:col-span-6 content-center items-center flex order-last lg:order-first">
+                    <div
+                        className="col-span-12 lg:col-span-6 content-center items-center flex order-last lg:order-first"
+                        data-aos="zoom-in"
+                        data-aos-duration="2000"
+                    >
                         <img src={Image} alt="" />
                     </div>
                     <div className="col-span-12 lg:col-span-6 content-center items-center flex">
-                        <div className="space-y-4 w-full lg:w-3/4">
+                        <div
+                            className="space-y-4 w-full lg:w-3/4"
+                            data-aos="zoom-in"
+                            data-aos-duration="2000"
+                        >
                             <h1 className="text-[30px] md:text-[54px] text-center lg:text-left font-bold">
                                 Tokenomics
                             </h1>

@@ -54,7 +54,7 @@ const faqs = [
 
 const According = () => {
     return (
-        <div className="bg-[#1D0B25]">
+        <div className="bg-[#1D0B25]" id="faq">
             <div className=" md:py-16">
                 <h1 className="px-10 py-10 text-3xl md:text-5xl font-bold text-white text-center">
                     Frequently Asked Questions
@@ -67,6 +67,8 @@ const According = () => {
                 <div
                     id="faqContainer"
                     className="continer md:px-16 py-16 mb-36"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
                 >
                     <AccordionWrapper>
                         {faqs.map((item, index) => (

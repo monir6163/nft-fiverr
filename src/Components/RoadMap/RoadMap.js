@@ -38,7 +38,7 @@ const Colors = [
 
 const RoadMap = () => {
     return (
-        <div className="py-20 relative z-[4]">
+        <div className="py-20 relative z-[4]" id="road">
             <div className="my-container">
                 <div>
                     <h1 className="text-center text-[54px] text-white font-bold">
