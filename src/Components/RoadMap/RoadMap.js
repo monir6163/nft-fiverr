@@ -45,7 +45,7 @@ const RoadMap = () => {
                         Roadmap
                     </h1>
                     <p className="text-center text-[20px] text-[#a7a1aa] font-bold">
-                        Join ILXSwap on our journey to the moon!
+                        Join ILX on our journey to the moon!
                     </p>
                 </div>
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 md:gap-x-6 gap-y-16 text-white">

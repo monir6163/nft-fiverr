@@ -20,15 +20,15 @@ const Colors = [
     },
     {
         id: 3,
-        title: "ILXSniper",
+        title: "ILX",
         img: img3,
-        desc: "Never miss a potential gem again once ILXSnipes releases to secure your entry spot.",
+        desc: "Never miss a potential gem again once ILX releases to secure your entry spot.",
     },
     {
         id: 4,
-        title: "Swap Platform",
+        title: "ILX Platform",
         img: img4,
-        desc: "Getting tired of errors or lag from PancakeSwap? ILXSwap will save you from that trouble.",
+        desc: "Getting tired of errors or lag from PancakeSwap? ILX will save you from that trouble.",
     },
 ];
 
@@ -45,12 +45,12 @@ const Innovate = () => {
                                 Innovative auto farming token.
                             </h1>
                             <p className="mt-10 text-[18px] font-bold text-slate-400 text-center lg:text-left px-4 lg:px-0">
-                                With ILXSwap's innovative code, all of your
-                                ILXSwap tokens will be automatically staked for
-                                you to be rewarded in BNB and ILXSwap tokens!
+                                With ILX innovative code, all of your ILX tokens
+                                will be automatically staked for you to be
+                                rewarded in BNB and ILX tokens!
                                 <p className="mt-[15px] text-base font-bold text-slate-400">
-                                    ILXSwap Token will be the only token
-                                    accepted in our ecosystem.
+                                    ILX Token will be the only token accepted in
+                                    our ecosystem.
                                 </p>
                                 <p className="mt-[15px] text-base font-bold text-slate-400">
                                     Our ecosystem will consist of the following:
