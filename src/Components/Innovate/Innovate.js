@@ -34,35 +34,35 @@ const Colors = [
 
 const Innovate = () => {
     return (
-        <div className="bg-[#1D0B25] text-white py-20">
+        <div className={`${Classes.innovate_bg} text-white py-20`}>
             <div className="my-container">
                 <div className="grid grid-cols-12 gap-4">
-                    <div className="col-span-12 lg:col-span-6 content-center items-center flex flex-col  lg:border-r-2 lg:border-b-0 border-b-2 border-slate-600 border-opacity-25">
+                    <div className="col-span-12 lg:col-span-6 content-center items-center flex flex-col  lg:border-r-2 lg:border-b-0 border-b-2 border-white border-opacity-25">
                         <div data-aos="zoom-in" data-aos-duration="2000">
                             <h1
                                 className={`${Classes.innovate_title} text-[2rem] md:text-[60px] font-bold md:leading-tight text-center lg:text-left`}
                             >
                                 Innovative auto farming token.
                             </h1>
-                            <p className="mt-10 text-[18px] font-bold text-slate-400 text-center lg:text-left px-4 lg:px-0">
+                            <p className="mt-10 text-[18px] font-bold text-white text-center lg:text-left px-4 lg:px-0">
                                 With ILX innovative code, all of your ILX tokens
                                 will be automatically staked for you to be
                                 rewarded in BNB and ILX tokens!
-                                <p className="mt-[15px] text-base font-bold text-slate-400">
+                                <p className="mt-[15px] text-base font-bold text-white">
                                     ILX Token will be the only token accepted in
                                     our ecosystem.
                                 </p>
-                                <p className="mt-[15px] text-base font-bold text-slate-400">
+                                <p className="mt-[15px] text-base font-bold text-white">
                                     Our ecosystem will consist of the following:
                                 </p>
-                                <p className="mt-[15px] text-base font-bold text-slate-400">
+                                <p className="mt-[15px] text-base font-bold text-white">
                                     - Pending orders for Pancakeswap Trading
                                 </p>
-                                <p className="mt-[15px] text-base font-bold text-slate-400">
+                                <p className="mt-[15px] text-base font-bold text-white">
                                     - PancakeSwap / Unicrypt / DxSale listing
                                     sniper
                                 </p>
-                                <p className="mt-[15px] text-base font-bold text-slate-400 mb-10 lg:mb-0">
+                                <p className="mt-[15px] text-base font-bold text-white mb-10 lg:mb-0">
                                     - Our own swap platform based on Pancakeswap
                                     Liquidity
                                 </p>

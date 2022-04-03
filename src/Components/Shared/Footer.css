@@ -3,7 +3,6 @@
     -webkit-box-align: center;
     align-items: center;
     top: -125px;
-    background: linear-gradient(rgb(45, 213, 119) 0%, rgb(36, 171, 96) 99.79%);
     box-shadow: rgb(0 0 0 / 15%) 0px 20px 40px;
     border-radius: 40px;
     max-width: 1240px;
@@ -35,7 +34,6 @@
     transform: scale(1.1);
 }
 .f_btn span {
-    color: rgb(41, 192, 107);
     font-family: Poppins;
     font-weight: bold;
     font-size: 18px;

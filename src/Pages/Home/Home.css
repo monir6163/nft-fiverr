@@ -5,7 +5,8 @@
 
 .hero_bg {
     position: relative;
-    background-image: url("..//..//images/herobg.png");
+    background-image: url("..//..//images/iloop3 bg.webp");
+    background-position: center;
     background-size: cover;
 }
 .hero_bg::before {
@@ -31,4 +32,9 @@
     .hero_text {
         max-height: 846px;
     }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }

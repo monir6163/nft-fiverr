@@ -1,6 +1,6 @@
 import React from "react";
-import nft from "../../../images/nft.png";
-import nftsm from "../../../images/small-nft.png";
+import nftsm from "../../../images/header_bg -mobile.png";
+import nft from "../../../images/header_bg.png";
 import "./Hero.css";
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center justify-center w-full mt-5">
                 <button
                     type="button"
-                    className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 rounded-full text-xl font-bold ml-8 mr-8 w-full md:w-48 md:px-10 py-4 text-center mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                    className="text-white bg-blue-600 hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-green-300 rounded-full text-xl font-bold ml-8 mr-8 w-full md:w-48 md:px-10 py-4 text-center mb-2"
                 >
                     WhitePaper
                 </button>

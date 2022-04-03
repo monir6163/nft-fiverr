@@ -32,3 +32,10 @@
         rgba(255, 255, 255, 0.1) 99.67%
     );
 }
+.innovate_bg {
+    background-image: url("../../images/innovate.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}

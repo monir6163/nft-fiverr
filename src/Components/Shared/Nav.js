@@ -79,15 +79,15 @@ const Nav = () => {
                         className="flex items-center"
                     >
                         <img
-                            className="h-4 w-full md:h-8 xl:h-10"
+                            className="h-4 md:w-full md:h-8 xl:h-10"
                             src={navlogo}
-                            alt="SolLires"
+                            alt="ILS"
                         />
                     </button>
                     <div className="flex sm:order-last items-center">
                         <button
                             type="button"
-                            className="rounded-full text-white mr-2 hidden lg:block nav_btn"
+                            className="rounded-full text-white mr-2 hidden bg-purple-600 lg:block nav_btn"
                         >
                             <a
                                 target="_blank"
