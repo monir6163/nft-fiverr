@@ -2,6 +2,7 @@ import React from "react";
 import According from "../../Components/According/According";
 import Featured from "../../Components/Featured/Featured";
 import Innovate from "../../Components/Innovate/Innovate";
+import Mint from "../../Components/Mint/Mint";
 import Footer from "../../Components/Shared/Footer";
 import Nav from "../../Components/Shared/Nav";
 import Tokenomics from "../../Components/Tokenomics/Tokenomics";
@@ -17,8 +18,10 @@ const Home = () => {
                     <Hero />
                     <Featured />
                     <Innovate />
+                    <Mint />
                     <Tokenomics />
                     <According />
+
                     <Footer />
                 </div>
             </div>

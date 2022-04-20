@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import nftsm from "../../../images/header_bg -mobile.png";
 import nft from "../../../images/header_bg.png";
 import "./Hero.css";
 
+async function getMetaMask() {
+    const accounts = await window.ethereum.request({
+        method: "eth_requestAccounts",
+    });
+    const account = accounts[0];
+    return account;
+}
+
 const Hero = () => {
+    const [accountAddress, setAccountAddress] = useState("");
+    const conectmetaMask = () => {
+        if (typeof window !== "undefined") {
+            getMetaMask().then((res) => {
+                setAccountAddress(res);
+            });
+        }
+    };
+
     return (
         <div
             className="flex flex-col mt-24 md:mt-36 items-center"
@@ -27,8 +44,9 @@ const Hero = () => {
                 <button
                     type="button"
                     className="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 rounded-full text-xl font-bold ml-8 mr-8 w-full md:w-48 md:px-10 py-4 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+                    onClick={conectmetaMask}
                 >
-                    Buy
+                    {!!accountAddress ? accountAddress : "Connect"}
                 </button>
             </div>
             <div className="nft_img">
